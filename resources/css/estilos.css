@@ -1,11 +1,8 @@
-body,
-section,
-aside,
-footer,
-head,
-h1,
-title {
-	background-color: #FFFFFF;
+body,section, aside,footer,head,h1,title{
+
+background-color: #FFFFFF;
+
+
 	/*background:url(../IMAGENES/imagen5.jpeg);
 	 /*border-style: solid;
      border-width: 2px;
@@ -15,48 +12,49 @@ title {
 	margin: 0px;
 	padding: 0px;
     display: inline-block;*/
+
 }
 
-title {
-	/*
+title{/*
 font-size:100px;
 color: gray;
 */
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Tahoma', serif;
-	/*
+body{
+margin: 0;
+padding: 0;
+font-family: 'Tahoma',serif;
+/*
 font-size:30px;
 color: gray;*/
 }
 
-nav {
+nav{
 	background-color: #000000;
-	color: #FFFFFF;
+	color:#FFFFFF;
 	text-align: center;
 	padding: 2px 0 2px 0;
+	
 }
 
-nav >ul {
-	list-style: none;
+nav >ul{
+list-style: none;
 }
 
-nav> ul> li {
+nav> ul> li{
 	display: inline-block;
 	padding: 0 25px 0 25px;
-	
-	
-		text-decoration: none;
+}
+
+nav> ul> li> a{
+	text-decoration: none;
 	color: #FFFFFF;
 }
 
-nav> ul> li> a:hover {
+nav> ul> li> a:hover{
 	color: #c1c1c1;
 }
-
 
 /*body.banner{
 width: 100%;
@@ -69,77 +67,83 @@ display: block;
 }
 */
 
-div.servicel {
-	width: 298px;
-	border: 1px solid #c1c1c1;
-	margin: 20px 10px;
-	padding: 0 5px;
-	float: left;
+div.servicel{
+width: 298px;
+border: 1px solid #c1c1c1; 
+margin: 20px 10px;
+padding: 0 5px;
+float: left;
 }
 
-div.servicel>p {
+
+div.servicel>p{
 	font-size: 14px;
 	color: #636363;
 	max-width: 250px;
+
 }
 
-div.services {
+div.services{
 	width: 990px;
 	margin: 0px auto;
 }
 
-h1 {
+h1{
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #000000;
 	color: #FFFFFF;
-	padding: 10px 0;
+	padding:10px 0;
 	margin: 0 -6px;
 }
 
-div.image {
+div.image{
 	max-width: 200px;
 	margin: 15px 0 0 0;
 }
 
-div.image:hover {
+div.image:hover{
 	opacity: 0.2;
 	max-width: 200px;
 	margin-top: 15px;
 }
 
-div.heading {
-	text-align: center;
-	font-size: 25px;
-	color: 000000;
-	margin: 40px 0 40px 0;
+div.heading{
+text-align: center;
+font-size: 25px;
+color: 000000;
+margin: 40px 0 40px 0;
+
 }
 
-section {
-	font-size: 20px;
-	color: gray;
+
+
+
+section{
+font-size:20px;
+color: gray;
 }
 
-aside {
-	/*width: 50%;
+
+aside{
+/*width: 50%;
 height: 50%;
 font-size:100px;
 color:gray;
-*/
-}
-
-aside h1 {
-	/*
+*/}
+aside h1{/*
 font-size:25px;
 color:gray;*/
 }
 
-footer {
-	/*font-size:10px;
+
+
+footer{
+/*font-size:10px;
 color:gray;*/
 }
 
-head {
+head{
 	/*font-size:30px;
 	color: black;*/
 }
