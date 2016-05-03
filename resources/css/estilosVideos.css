@@ -1,0 +1,37 @@
+
+div.videoDelMes{
+        
+}
+
+
+div.videos{
+width: 1300px;
+background-color: #FFFFFF;
+margin: 15px 75px;
+padding: 0 5px;
+float: left;
+}
+
+div.video{
+width:600px; 
+height: 350px;
+background-color: #000000;
+margin: 15px auto;
+float: left;
+}
+
+div.heading{
+text-align: center;
+font-size: 25px;
+font-weight:bold;
+color: c1c1c1;
+margin: 40px 0 40px 0;
+}
+
+p.titulo{
+  text-align: justify;
+}
+
+p.infor{
+  text-align: left;
+}
