@@ -1,0 +1,76 @@
+/*estilo global */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Tahoma', serif;
+}
+
+
+
+/*parte superior*/
+title {
+}
+
+/*encabezado de la pagina */
+header {
+}
+
+/*----------------------menu-----------------------------------*/
+nav {
+	background-color: black;
+	color white;
+	text-align: center;
+	padding: 15px 0px 15px 0px;	/*box-shawdown: dezplazamiento horizntal, desplazamiento vertical, pixeles  en difuminacion 
+		/*rgba estandar rgb extendido rgba(, , , opacidad de 0 a 1 )*/
+
+	/*rgba(10,0,0,0.5); */
+	box-shadow: 0px 0px 20px black;
+}
+
+/*elimina las barras inferiores de nuestro links*/
+nav >ul {
+	list-style: none;
+}
+
+nav> ul> li {
+
+	/*lista ordenada en linea horizontal*/
+	display: inline-block;
+	padding: 0px 25px 0px 25px;
+}
+
+/*hipervinculos*/
+nav> ul> li> a {
+	text-decoration: none;
+	color: white;
+}
+
+/*efecto sobre vinculo del nav*/
+nav> ul> li> a:hover {
+	color: #c1c1c1;
+}
+
+/*div de  itulo de pagina */
+div.TituloPagina {
+	font-style: italic;
+	font-weight: bold;	/*font-size: 25px;*/
+	color: black;
+	text-align: center;
+	margin: 50px;
+}
+
+/*------------------cuerpo------------------------------*/
+
+/*------------------------footer---------------------------*/
+
+footer {
+
+	/*lo mismo que nav */
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 15px 0px 15px 0px;
+	box-shadow: 0px 0px 20px black;
+	margin-top: 100px;
+}

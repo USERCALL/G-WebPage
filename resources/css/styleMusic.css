@@ -1,0 +1,42 @@
+/* tablas*/
+table.TablaGenero {
+	text-align: center;	/*dispaly flex para acomodar los divs */
+	display: flex;
+	justify-content: center;
+}
+
+td,
+th {
+	background-color: black;
+	/*espacio adicional entre boder y contenido*/
+	/*border witdht style color*/
+	border-width: 15px;
+	border-style: solid;
+	border-color: white;
+}
+
+h1.PortadaGeneros_Titulo {
+	background-color: black;
+	color: white;
+	margin-bottom: 10px; 
+}
+
+/* imagenes*/
+img.image {
+
+	/*nos define los limites maximos de las imagens*/
+	min-width: 140px;
+	min-height: 140px;
+	max-width: 140px;
+	max-height: 140px;
+}
+
+/*div macro de cada celda*/
+div.PortadaGeneros {
+	padding: 2px;
+	box-shadow: 0px 0px 25px black
+}
+
+div.PortadaGeneros:hover {
+	box-shadow: 0px 0px 15px gray
+}
