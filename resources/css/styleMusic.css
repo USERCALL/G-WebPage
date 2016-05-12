@@ -1,9 +1,7 @@
-
-
-
 /* tablas*/
 table.TablaGenero {
 	/*margin-top: 200px;*/
+
 	text-align: center;	/*dispaly flex para acomodar los divs */
 	display: flex;
 	justify-content: center;
