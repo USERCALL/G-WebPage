@@ -1,0 +1,13 @@
+div.Animado{
+	margin: 10%;
+	height: 100px;
+	width: 80%;
+	background-color: black;
+	
+}
+
+div.Animado:hover{
+	background-color: blue;
+
+	
+}
