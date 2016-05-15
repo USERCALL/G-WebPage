@@ -16,7 +16,7 @@ div.CajonAudio{
 	box-shadow: 1px 1px 15px black;
 }
 
-div.CanjonVideo{
+div.CajonVideo{
 	margin: auto 10%;
 	padding: 20px;
 	background-color: black;
@@ -28,10 +28,12 @@ div.CanjonVideo{
 
 p{
 	/*font-size*/
+	padding:5px;
 	text-align: center;
 		color: white;
 }
-a{
+
+.CajonAudio a,.CajonVideo a,{
 	text-decoration: none;
 	color: white;
 	font-size:0.75em;
