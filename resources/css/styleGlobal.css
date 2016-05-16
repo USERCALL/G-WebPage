@@ -15,39 +15,51 @@ title {
 header {
 }
 
-/*----------------------menu-----------------------------------*/
-nav {
+/*----------------------  navegacion- -----------------------*/
+header>nav {
 	background-color: black;
 	color white;
 	text-align: center;
-	padding: 15px 0px 15px 0px;	/*box-shawdown: dezplazamiento horizntal, desplazamiento vertical, pixeles  en difuminacion 
-		/*rgba estandar rgb extendido rgba(, , , opacidad de 0 a 1 )*/
+	
+	/*box-shawdown: dezplazamiento horizntal, desplazamiento vertical, pixeles  en difuminacion 
+	/*rgba estandar rgb extendido rgba(red, green, blue, opacidad de 0 a 1 )*/
 
 	/*rgba(10,0,0,0.5); */
 	box-shadow: 0px 0px 20px black;
+
+/*forza el navegador a mantener el menu en la parte superior*/
+	position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 100;/* Depende el valor segun las capas flotantes que tengas */
+   
 }
 
 /*elimina las barras inferiores de nuestro links*/
-nav >ul {
+header>nav >ul {
 	list-style: none;
+	padding: 10px 0  10px 0;
 }
 
-nav> ul> li {
-
+header>nav> ul> li {
 	/*lista ordenada en linea horizontal*/
 	display: inline-block;
-	padding: 0px 25px 0px 25px;
+	
 }
 
 /*hipervinculos*/
-nav> ul> li> a {
+header>nav> ul> li> a {
 	text-decoration: none;
 	color: white;
+	padding: 10px 25px 10px 25px;
+
 }
 
 /*efecto sobre vinculo del nav*/
-nav> ul> li> a:hover {
+header>nav> ul> li> a:hover {
 	color: #c1c1c1;
+	background-color: gray;
 }
 
 /*div de  itulo de pagina */
@@ -56,9 +68,9 @@ div.TituloPagina {
 	font-weight: bold;	/*font-size: 25px;*/
 	color: black;
 	text-align: center;
-	margin: 50px;
+	width: 100%;
+	margin: 50px auto;
 }
-
 /*------------------cuerpo------------------------------*/
 
 /*------------------------footer---------------------------*/
@@ -66,11 +78,18 @@ div.TituloPagina {
 footer {
 
 	/*lo mismo que nav */
-	margin-top: 100px;
+	width: 100%;
 	text-align: center;
 	color: white;
 	background-color: black;
 	padding: 15px 0px 15px 0px;
 	box-shadow: 0px 0px 20px black;
 	margin-top: 100px;
+
+	/*obligara al footer que no puede quedar ni izquierda ni derecha*/
+	clear:both;
+
+   
+
+
 }

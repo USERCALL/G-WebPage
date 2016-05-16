@@ -36,7 +36,8 @@ img.image {
 /*div macro de cada celda*/
 div.PortadaGeneros {
 	padding: 2px;
-	box-shadow: 0px 0px 25px black
+	border: 15px solid white;
+	box-shadow: 25px 25px 25px black;
 }
 
 div.PortadaGeneros:hover {
