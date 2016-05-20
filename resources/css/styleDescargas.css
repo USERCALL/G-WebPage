@@ -7,23 +7,11 @@ width:80%;
 }
 	
 
-div.CajonAudio{
-	padding: 20px;
-	margin: 0 10%  10px 10%;
-	background-color: black;
+	article{
+
 	align-content: center;
 	text-align: center;
-	box-shadow: 1px 1px 15px black;
-}
-
-div.CajonVideo{
-	margin: auto 10%;
-	padding: 20px;
-	background-color: black;
-	align-content: center;
-	text-align: center;
-	box-shadow: 1px 1px 15px black;
-
+	
 }
 
 p{
@@ -32,6 +20,7 @@ p{
 	text-align: center;
 		color: white;
 }
+
 
 .CajonAudio a,.CajonVideo a{
 	text-decoration: none;

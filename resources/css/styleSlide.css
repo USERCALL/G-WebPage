@@ -1,8 +1,6 @@
-
 .main {
-	width:90%;
-	max-width:1000px;
-	margin:20px auto;
+	background-color: white;
+	/*max-width:1000px;*/	
 }
 
 .slides {
@@ -10,10 +8,7 @@
 }
 
 .slides img {
-	width:100%;
-
-	
-	
+	width:100%;	
 }
 
 .slidesjs-pagination {
@@ -21,18 +16,12 @@
 	list-style:none;
 	overflow:hidden;
 	margin: 0px
-	
-
 }
-
-
-
 
 .slidesjs-pagination li {
 	float:left;
-		margin: 0px
-	
-		
+	margin: 0px
+			
 }
 
 .slidesjs-pagination li a {
@@ -40,19 +29,14 @@
 	padding:10px 20px;
 	color:#fff;
 	text-decoration:none;
-	
-
 }
 
 .slidesjs-pagination li a:hover {
-	background:#000;
-	
-	
+	background:#000;	
 }
 
 .slides .active {
 	background:#000;
-	
 }
 
 .slidesjs-navigation{
