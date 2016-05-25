@@ -3,34 +3,32 @@
   <head>
     <title>Inicio</title>
     <meta charset="utf-8" />
-    
-    
+
+    <script src="resources/js/w3data.js"></script>
+
     <!-- SlidesJS Required: Link to jQuery -->
     <script src="resources/js/jquery-latest.js"></script>
     <!-- End SlidesJS Required -->
     
     <!-- SlidesJS Required: Link to jquery.slides.js -->
-    <script src="resources/js/jquery.slides.min.js"></script>
+    <script src="resources/js/jquery.slides.min.js" async>></script>
     <!-- End SlidesJS Required -->
+    <!-- permite hacer importaciones html w3school -->
+    <script src="http://www.w3schools.com/lib/w3data.js" async></script>
+    <!-- <script src="http://www.w3schools.com/lib/w3data.js" async></script> -->
     
     <!-- css global -->
     <link rel="stylesheet" type="text/css" href="resources/css/styleGlobal.css">
     <!-- Estilos especificos -->
     <link rel="stylesheet" type="text/css" href="resources/css/styleSlide.css">
-    
+
   </head>
-  <body>
+ 
+<body class="w3-container">
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="musica.html">Musica</a></li>
-          <li><a href="videos.html">Videos</a></li>
-          <li><a href="top10.html">Top 10</a></li>
-          <li><a href="descargas.html">Descargar</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-        </ul>
-      </nav>
+      <!-- w3-include-html="archivo.html" atributo me permite hacer importaciones de archivos, revisar tambien polymer by google (en desarrolllo)-->
+
+      <nav w3-include-html="resources/html/menu.html"></nav>
       <div class="TituloPagina">
         <h1>
         <span class="TituloPagina_Texto">Inicio</span>
@@ -49,7 +47,16 @@
     </div>
     </article
     
-    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+   
+    <!-- footer -->
+    <footer w3-include-html="resources/html/footer.html"></footer>
+  
+  <!-- SCRIPT DE INCLUSION DE ELEMENTOS HTM IMPORT W3CDATA -->
+    <script>
+      w3IncludeHTML();
+    </script>
+    
+     <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
     
     <script>
     $(function(){
@@ -74,12 +81,6 @@
     });
     });
     </script>
-    <!-- footer -->
-    <footer>
-      <h5>Pagina desarrollada con tecnoogias libres HTML,CSS y JS <br>Universidad Distrutal Francisco Jose de Caldas
-      <br>Grupo de Trabajo G-WEB
-      </h5>
-    </footer>
     
   </body>
 </html>

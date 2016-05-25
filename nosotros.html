@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Nosotros</title>
-		<!-- truco para refescar pagina cada 2 seg ideal solo para desarrollo y cuando el proyecto es pequeño-->
-		<meta http-equiv="refesh" content="5">
+		
+		<!-- permite hacer importaciones html w3school -->
+    	<script src="resources/js/w3data.js"></script>
 		<!-- descriptin y keyword utilizadas anteriormente para hacer la indexacion y recibir mejores resultados, ya no son muy utilizadas pero no queda de mas colocarlas -->
 		<meta name="description" content="Pagina G-web">
 		<meta name="keyword" content="Universidad Distrital, Grupo de trabajo, gweb, G-WEB">
@@ -19,16 +20,7 @@
 	<body>
 		<div id="Principal" >
 			<header>
-				<nav>
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="musica.html">Musica</a></li>
-						<li><a href="videos.html">Videos</a></li>
-						<li><a href="top10.html">Top 10</a></li>
-						<li><a href="descargas.html">Descargar</a></li>
-						<li><a href="nosotros.html">Nosotros</a></li>
-					</ul>
-				</nav>
+				<nav w3-include-html="resources/html/menu.html"></nav>
 				<div class="TituloPagina">
 					<h1> <span class="TituloPagina_Texto">Nosotros</span>
 					</h1>
@@ -68,11 +60,12 @@
 				<p>Descripcion asdasdasdasdasdasdasdasdasdsa</p>
 			</article>
 			<!-- footer -->
-			<footer>
-				<h5>Pagina desarrollada con tecnoogias libres HTML,CSS y JS <br>Universidad Distrutal Francisco Jose de Caldas
-				<br>Grupo de Trabajo G-WEB
-				</h5>
-			</footer>
+			<footer w3-include-html="resources/html/footer.html"></footer>
+  
+  		<!-- SCRIPT DE INCLUSION DE ELEMENTOS HTM IMPORT W3CDATA -->
+    		<script>
+      			w3IncludeHTML();
+    		</script>
 		</div>
 	</body>
 </html>

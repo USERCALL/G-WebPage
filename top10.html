@@ -3,6 +3,8 @@
     <head>
         <title>Top 10</title>
         <meta charset="utf-8" />
+        <!-- permite hacer importaciones html w3school -->
+        <script src="resources/js/w3data.js"></script>
         <!-- css global -->
         <link rel="stylesheet" type="text/css" href="resources/css/styleGlobal.css">
         <!-- estilos especificos -->
@@ -12,16 +14,7 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="musica.html">Musica</a></li>
-                    <li><a href="videos.html">Videos</a></li>
-                    <li><a href="top10.html">Top 10</a></li>
-                    <li><a href="descargas.html">Descargar</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </nav>
+          <nav w3-include-html="resources/html/menu.html"></nav>
             <div class="TituloPagina">
                 <h1>
                 <span class="TituloPagina_Texto">Top 10 </span>
@@ -114,12 +107,12 @@
         </article>
         
         
-        
         <!-- footer -->
-        <footer>
-            <h5>Pagina desarrollada con tecnoogias libres HTML,CSS y JS <br>Universidad Distrutal Francisco Jose de Caldas
-            <br>Grupo de Trabajo G-WEB
-            </h5>
-        </footer>
+        <footer w3-include-html="resources/html/footer.html"></footer>
+  
+         <!-- SCRIPT DE INCLUSION DE ELEMENTOS HTM IMPORT W3CDATA -->
+        <script>
+            w3IncludeHTML();
+        </script>
     </body>
 </html>
