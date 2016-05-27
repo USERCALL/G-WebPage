@@ -1,86 +1,77 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Inicio</title>
     <meta charset="utf-8" />
-
     <script src="resources/js/w3data.js"></script>
-
     <!-- SlidesJS Required: Link to jQuery -->
     <script src="resources/js/jquery-latest.js"></script>
     <!-- End SlidesJS Required -->
-    
-    <!-- SlidesJS Required: Link to jquery.slides.js -->
-    <script src="resources/js/jquery.slides.min.js" async>></script>
+    <!-- SlidesJS Required:Link to jquery.slides.js -->
+    <script src="resources/js/jquery.slides.min.js" async>
+
+
+    </script>
     <!-- End SlidesJS Required -->
     <!-- permite hacer importaciones html w3school -->
     <script src="http://www.w3schools.com/lib/w3data.js" async></script>
-    <!-- <script src="http://www.w3schools.com/lib/w3data.js" async></script> -->
-    
+    <!-- <script src="http://www.w3schools.com/lib/w3data.js"async></script> -->
     <!-- css global -->
     <link rel="stylesheet" type="text/css" href="resources/css/styleGlobal.css">
     <!-- Estilos especificos -->
     <link rel="stylesheet" type="text/css" href="resources/css/styleSlide.css">
-
   </head>
- 
-<body class="w3-container">
-    <header>
-      <!-- w3-include-html="archivo.html" atributo me permite hacer importaciones de archivos, revisar tambien polymer by google (en desarrolllo)-->
 
+  <body class="w3-container">
+    <header>
+      <!-- w3-include-html="archivo.html"atributo me permite hacer importaciones de archivos, revisar tambien polymer by google (en desarrolllo)-->
       <nav w3-include-html="resources/html/menu.html"></nav>
       <div class="TituloPagina">
-        <h1>
-        <span class="TituloPagina_Texto">Inicio</span>
-        </h1>
+        <h1><span class="TituloPagina_Texto">Inicio</span></h1>
       </div>
     </header>
     <article>
-        <div class="main">
-      <div class="slides">
-        <img src="resources/imgs/electro.jpg" alt="No encontada ">
-        <img src="resources/imgs/banermusica.jpg" alt="No encontada ">
-        <img src="resources/imgs/ingenieria.jpg" alt="No encontada ">
-        <img src="resources/imgs/html5.jpg" alt="No encontada">
-        <img src="resources/imgs/UniversidadDistrital.gif" alt="No encontada ">
+      <div class="main">
+        <div class="slides">
+          <img src="resources/imgs/electro.jpg" alt="No encontada ">
+          <img src="resources/imgs/banermusica.jpg" alt="No encontada ">
+          <img src="resources/imgs/html5.jpg" alt="No encontada">
+          <img src="resources/imgs/UniversidadDistrital.gif" alt="No encontada ">
+        </div>
       </div>
-    </div>
-    </article
-    
-   
-    <!-- footer -->
+    </article <!-- footer -->
     <footer w3-include-html="resources/html/footer.html"></footer>
-  
-  <!-- SCRIPT DE INCLUSION DE ELEMENTOS HTM IMPORT W3CDATA -->
+    <!-- SCRIPT DE INCLUSION DE ELEMENTOS HTM IMPORT W3CDATA -->
     <script>
-      w3IncludeHTML();
+    w3IncludeHTML();
+
     </script>
-    
-     <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-    
+    <!-- SlidesJS Required:Initialize SlidesJS with a jQuery doc ready -->
     <script>
-    $(function(){
-    $(".slides").slidesjs({
-    play: {
-    active: true,
-    // [boolean] Generate the play and stop buttons.
-    // You cannot use your own buttons. Sorry.
-    effect: "slide",
-    // [string] Can be either "slide" or "fade".
-    interval: 5000,
-    // [number] Time spent on each slide in milliseconds.
-    auto: true,
-    // [boolean] Start playing the slideshow on load.
-    swap: true,
-    // [boolean] show/hide stop and play buttons
-    pauseOnHover: false,
-    // [boolean] pause a playing slideshow on hover
-    restartDelay: 2500
-    // [number] restart delay on inactive slideshow
-    }
-    });
-    });
+    $(function() {
+        $(".slides").slidesjs({
+            play: {
+              active: true, // [boolean] Generate the play and stop buttons.
+              // You cannot use your own buttons. Sorry.
+              effect: "slide", // [string] Can be either "slide" or "fade".
+              interval: 5000, // [number] Time spent on each slide in milliseconds.
+              auto: true, // [boolean] Start playing the slideshow on load.
+              swap: true, // [boolean] show/hide stop and play buttons
+              pauseOnHover: false, // [boolean] pause a playing slideshow on hover
+              restartDelay: 2500
+                // [number] restart delay on inactive slideshow
+            }
+
+          }
+
+        );
+      }
+
+    );
+
     </script>
-    
   </body>
+
 </html>
+

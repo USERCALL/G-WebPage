@@ -1,46 +1,50 @@
 /* tablas*/
+
 table.TablaGenero {
-
-	/*margin-top: 200px;*/
-
-	text-align: center;	/*dispaly flex para acomodar los divs */
-	display: flex;
-	justify-content: center;
+  /*margin-top: 200px;*/
+  text-align: center;
+  /*dispaly flex para acomodar los divs */
+  display: flex;
+  justify-content: center;
 }
-td, th {
-	background-color: black;	/*espacio adicional entre boder y contenido*/
 
-	/*border witdht style color*/
-	border-width: 15px;
-	border-style: solid;
-	border-color: white;
+td,
+th {
+  background-color: black;
+  /*espacio adicional entre boder y contenido*/
+  /*border witdht style color*/
+  border-width: 15px;
+  border-style: solid;
+  border-color: white;
 }
+
 h1.PortadaGeneros_Titulo {
-	background-color: black;
-	color: white;
-	margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
 }
+
 
 /* imagenes*/
-img.image {
 
-	/*nos define los limites maximos de las imagens*/
-	min-width: 140px;
-	min-height: 140px;
-	max-width: 140px;
-	max-height: 140px;
+img.image {
+  /*nos define los limites maximos de las imagens*/
+  min-width: 140px;
+  min-height: 140px;
+  max-width: 140px;
+  max-height: 140px;
 }
+
 
 /*div macro de cada celda*/
-div.PortadaGeneros {
-	padding: 2px;
-	border: 15px solid white;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12),
-	            0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
+div.PortadaGeneros {
+  padding: 2px;
+  border: 15px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
+
 div.PortadaGeneros:hover {
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-	            0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }

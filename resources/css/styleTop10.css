@@ -1,16 +1,16 @@
 img {
   height: 100px;
   width: 100px;
-  padding :5px; 
+  padding: 5px;
 }
-p, h2 {
+
+p,
+h2 {
   color: white;
   padding: 10px;
   margin: auto;
 }
-article{
+
+article {
   display: inline-flex;
 }
-
-}
-

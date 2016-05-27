@@ -1,38 +1,45 @@
-div.Animado{
-	margin: 10%;
-	height: 100px;
-	width: 80%;
-	background-color: black;
-	
-
+div.Animado {
+  margin: 10%;
+  height: 100px;
+  width: 80%;
+  background-color: black;
 }
-div.Animado:hover{
+
+div.Animado:hover {
   background-color: blue;
 }
 
+
 /*----*/
 
+
+/*
 section{
   margin: 10%;
   background-color: black;  
 }
+*/
 
-#escudoUD{
+#escudoUD {
   /*poder centrar las imag*/
   display: block;
-  margin:  auto  ;
+  margin: auto;
+  width: 50%;
+  transition: s
+}
 
-  width:50%;
+#escudoUD:hover {
+  background-color: white;
+}
+
+article * {
+  text-align: center;
+  padding: 5px;
 }
 
 
-section>h1, section>h2{
-  text-align:  center;
-}
-
-
+/*
 section:hover{
-  background-color: blue;
+background-color: blue;
 }
-
-	
+*/
