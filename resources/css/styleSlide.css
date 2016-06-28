@@ -3,6 +3,10 @@
   /*max-width:1000px;*/
 }
 
+.main * {
+  padding: 0px;
+}
+
 .slides {
   width: 100%;
 }

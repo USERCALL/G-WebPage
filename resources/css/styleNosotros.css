@@ -25,17 +25,9 @@ section{
   display: block;
   margin: auto;
   width: 50%;
-  transition: s
 }
 
-#escudoUD:hover {
-  background-color: white;
-}
-
-article * {
-  text-align: center;
-  padding: 5px;
-}
+#escudoUD:hover {}
 
 
 /*
